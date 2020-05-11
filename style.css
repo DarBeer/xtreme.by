@@ -1,0 +1,247 @@
+body {
+    background: #2b2b2b;
+    color: #dbdbdb;
+}
+
+nav {
+    border-bottom: solid 5px #292929;
+}
+
+header .navbar-brand img{
+    max-height: 50px;
+}
+
+header .bg-dark {
+    background: #333333 !important;
+}
+
+header a.nav-link {
+    color: #dbdbdb !important;
+}
+
+header a.nav-link:hover {
+    color: #be3535 !important;
+    font-weight: 500;
+}
+
+header a.nav-link:focus {
+    color: #be3535 !important;
+    font-weight: 500;
+}
+
+header a.navbar-brand {
+    color: #e22b2b !important;
+    font-weight: 600;
+}
+
+main {
+    margin: 81px 0 0 0;
+}
+
+main .container {
+    margin: 2rem auto 3rem auto;
+}
+
+.carousel-item img {
+    background: #616161;
+}
+
+.title {
+    margin-top: 2rem;
+}
+
+.title h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.title .sub-header {
+
+    margin-bottom: 0px !important;
+    border-bottom-width: 0px !important;
+    padding-bottom: 10px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.title .line{
+    height: 1px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 10%;
+    background-color: #be3535;
+}
+
+.title .sub-header h4 {
+    margin: 0 1rem 0 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.about {
+    margin-top: 1rem;
+}
+
+.about h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.about p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.about ul > li {
+    font-size: 0.9rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.contact-title {
+    margin-top: 1rem;
+}
+
+.contact-title h2 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.contact-title h4 {
+    font-size: 1rem;
+
+}
+
+.contact-title h4 > a {
+    color: #be3535;
+    text-decoration: none;
+}
+
+.contact-title h4 > a:hover {
+    color: #e22b2b;
+    text-decoration: underline;
+}
+
+.fa-map-marker-alt {
+    font-size: 1.3rem;
+    margin-left: 0.9rem;
+    color: #dbdbdb !important;
+}
+
+a.instagram {
+    text-decoration: none;
+}
+
+a.instagram:hover {
+    text-decoration: none !important;
+}
+
+.fa-instagram {
+    color: #dbdbdb;
+    font-size: 1.3rem;
+  }
+
+.contact-content h4 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.contact-content p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.contact-content a {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #be3535;
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    color:#e22b2b;
+    text-decoration: underline;
+}
+
+.thank {
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800 !important;
+}
+
+.anchor {
+    position: relative;
+    top: -81px;
+}
+
+a.viber {
+    color:  #665CAC
+}
+
+a.viber:hover {
+    color: rgb(112, 97, 204);
+}
+
+.scrollbar {
+    float: left;
+    overflow-y: scroll;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+    width: 6px;
+    background-color: #292929; 
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #be3535; 
+}
+
+.scrollbar-primary {
+    scrollbar-color: #be3535 #F5F5F5;
+}
+
+footer {
+    padding: 1em;
+    background: #0000005d;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #be3535;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e22b2b;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 374px) {
+    .navbar-brand >  img {
+        max-width: 210px;
+    }
+}
